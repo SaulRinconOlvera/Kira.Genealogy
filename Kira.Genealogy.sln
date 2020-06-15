@@ -24,9 +24,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kira.Genealogy.DS.TestApi", "Kira.Genealogy.DS.TestApi\Kira.Genealogy.DS.TestApi.csproj", "{B47F9CD5-4B8D-4423-9A23-818F51DDAFA5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dabase", "Dabase", "{1AE46D8F-7E86-4888-8D78-DC7D396AD02A}"
-	ProjectSection(SolutionItems) = preProject
-		C:\Users\saulr\OneDrive\Escritorio\tree_projects.sql = C:\Users\saulr\OneDrive\Escritorio\tree_projects.sql
-	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Kira.Genealogy.Database", "Kira.Genealogy.Database\Kira.Genealogy.Database.sqlproj", "{86993148-9B18-44B0-85AA-78B6F3615184}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +49,12 @@ Global
 		{B47F9CD5-4B8D-4423-9A23-818F51DDAFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B47F9CD5-4B8D-4423-9A23-818F51DDAFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B47F9CD5-4B8D-4423-9A23-818F51DDAFA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86993148-9B18-44B0-85AA-78B6F3615184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86993148-9B18-44B0-85AA-78B6F3615184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86993148-9B18-44B0-85AA-78B6F3615184}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{86993148-9B18-44B0-85AA-78B6F3615184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86993148-9B18-44B0-85AA-78B6F3615184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86993148-9B18-44B0-85AA-78B6F3615184}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +67,7 @@ Global
 		{71F1B87F-34A1-416F-A67F-58E2AD017DB2} = {39D20688-A253-4038-8574-54FC7B91DFE0}
 		{C120E9DC-4553-4A41-AA4E-65E17D09AF5B} = {0157A75D-36A8-434D-BDB6-36FBD072DFFA}
 		{B47F9CD5-4B8D-4423-9A23-818F51DDAFA5} = {C120E9DC-4553-4A41-AA4E-65E17D09AF5B}
+		{86993148-9B18-44B0-85AA-78B6F3615184} = {1AE46D8F-7E86-4888-8D78-DC7D396AD02A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D1EF9892-C141-4768-9680-672DA793DD90}
