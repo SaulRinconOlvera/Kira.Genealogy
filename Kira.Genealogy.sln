@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{4A6B28C6-DD76-4867-88CF-8E5A00CFE49A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{0C9623FF-CC37-4837-B5E1-8C3C38B303FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kira.Genealogy.Model.Base", "Kira.Genealogy.Model.Base\Kira.Genealogy.Model.Base.csproj", "{15A71B6A-0977-4A91-858B-15E80DEEB25F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{C831203D-174B-4385-B635-8F15ED4E97C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kira.Genealogy.Model.Domain", "Kira.Genealogy.Model.Domain\Kira.Genealogy.Model.Domain.csproj", "{56E33ABE-9DD2-42A0-9A0B-5672BBE6969E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{39D20688-A253-4038-8574-54FC7B91DFE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kira.Genealogy.Persistence", "Kira.Genealogy.Persistence\Kira.Genealogy.Persistence.csproj", "{71F1B87F-34A1-416F-A67F-58E2AD017DB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Distributed Servives", "Distributed Servives", "{0157A75D-36A8-434D-BDB6-36FBD072DFFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestApiService", "TestApiService", "{C120E9DC-4553-4A41-AA4E-65E17D09AF5B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kira.Genealogy.DS.TestApi", "Kira.Genealogy.DS.TestApi\Kira.Genealogy.DS.TestApi.csproj", "{B47F9CD5-4B8D-4423-9A23-818F51DDAFA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dabase", "Dabase", "{1AE46D8F-7E86-4888-8D78-DC7D396AD02A}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\saulr\OneDrive\Escritorio\tree_projects.sql = C:\Users\saulr\OneDrive\Escritorio\tree_projects.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15A71B6A-0977-4A91-858B-15E80DEEB25F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A71B6A-0977-4A91-858B-15E80DEEB25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A71B6A-0977-4A91-858B-15E80DEEB25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A71B6A-0977-4A91-858B-15E80DEEB25F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E33ABE-9DD2-42A0-9A0B-5672BBE6969E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E33ABE-9DD2-42A0-9A0B-5672BBE6969E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E33ABE-9DD2-42A0-9A0B-5672BBE6969E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E33ABE-9DD2-42A0-9A0B-5672BBE6969E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F1B87F-34A1-416F-A67F-58E2AD017DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F1B87F-34A1-416F-A67F-58E2AD017DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F1B87F-34A1-416F-A67F-58E2AD017DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F1B87F-34A1-416F-A67F-58E2AD017DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B47F9CD5-4B8D-4423-9A23-818F51DDAFA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B47F9CD5-4B8D-4423-9A23-818F51DDAFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B47F9CD5-4B8D-4423-9A23-818F51DDAFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B47F9CD5-4B8D-4423-9A23-818F51DDAFA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C9623FF-CC37-4837-B5E1-8C3C38B303FB} = {4A6B28C6-DD76-4867-88CF-8E5A00CFE49A}
+		{15A71B6A-0977-4A91-858B-15E80DEEB25F} = {0C9623FF-CC37-4837-B5E1-8C3C38B303FB}
+		{C831203D-174B-4385-B635-8F15ED4E97C4} = {4A6B28C6-DD76-4867-88CF-8E5A00CFE49A}
+		{56E33ABE-9DD2-42A0-9A0B-5672BBE6969E} = {C831203D-174B-4385-B635-8F15ED4E97C4}
+		{71F1B87F-34A1-416F-A67F-58E2AD017DB2} = {39D20688-A253-4038-8574-54FC7B91DFE0}
+		{C120E9DC-4553-4A41-AA4E-65E17D09AF5B} = {0157A75D-36A8-434D-BDB6-36FBD072DFFA}
+		{B47F9CD5-4B8D-4423-9A23-818F51DDAFA5} = {C120E9DC-4553-4A41-AA4E-65E17D09AF5B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1EF9892-C141-4768-9680-672DA793DD90}
+	EndGlobalSection
+EndGlobal
